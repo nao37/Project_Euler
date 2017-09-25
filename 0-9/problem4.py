@@ -7,7 +7,6 @@ def main():
         for i in num_array:
             integer += i
         while division_num >= 100:
-            sum += 1
             if int(integer) / division_num >= 1000:
                 break
             elif int(integer) % division_num == 0:
